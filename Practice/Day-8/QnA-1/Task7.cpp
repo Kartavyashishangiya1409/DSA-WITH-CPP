@@ -10,9 +10,9 @@ using namespace std;
 
 int main(){
 
-    for (char row = 65; row <= 69; row++) // 1
+    for (char row = 65; row <= 69; row++) 
     {
-        for (char col = row; col >= 65 ; col--) // A B C D E
+        for (char col = row; col >= 65 ; col--) 
         {
             cout << col << " ";
         }
