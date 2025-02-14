@@ -5,17 +5,17 @@ using namespace std;
 
 int main (){
 
-    int n, i;
+    int n, m, i;
 
     cout << "Enter the value of n --> ";
     cin >> n;
 
-    for (i = 1; i <= n; i++)
+    cout << "Enter the Value till which you want to run the table --> ";
+    cin >> m;
+
+    for (int i = 1; i <= m; i++)
     {
-        n = 0;
-        n++;
-        n = i * n;
-        cout << n << endl;
+        cout << n << " x " << i << " = " << n * i << endl;
     }
-    
+
 }

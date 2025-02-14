@@ -98,8 +98,8 @@ int main()
     do
     {
         int n;
-        cout << endl
-             << "Enter the code number that you want to print from 1, 2 & 3 --> ";
+        
+        cout << endl << "Enter the code number that you want to print from 1, 2 & 3 --> ";
         cin >> n;
 
         switch (n)
