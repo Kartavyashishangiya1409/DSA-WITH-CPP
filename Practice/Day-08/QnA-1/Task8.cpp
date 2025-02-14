@@ -23,13 +23,15 @@ int main(){
     }
 
     cout << endl << endl;
-    
+
+    int start = 1;
+
     for (int i = 1; i <= 5; i++)
     {
         for (int j = i; j >= 1; j--)
         {
-            cout << count << " ";
-            count++;
+            cout << start << " ";
+            start++;
         }
         cout << endl;
     }
