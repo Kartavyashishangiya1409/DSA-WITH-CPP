@@ -2,9 +2,9 @@
 using namespace std;
 
 int hi(int a){
-    return a;
+    cout << a ;
 }
 
 int main(){
-    
+    hi(2);
 }
