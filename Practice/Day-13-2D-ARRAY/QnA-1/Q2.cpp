@@ -1,4 +1,4 @@
-// Q1. Write a Program to find the average of a given 2D array.
+// Q2. Write a Program to perform the addition operation of two 2D arrays & store it in another array. Keep in mind that both array sizes must be the same.
 
 #include <iostream>
 using namespace std;
@@ -16,6 +16,8 @@ int main(){
     col = size;
 
     int a[row][col];
+    int b[row][col];
+    int c[row][col];
 
     for (int i = 0; i < row; i++)
     {
@@ -34,19 +36,34 @@ int main(){
         }
         cout << endl;
     }
-
-    float sum = 0;
-
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            sum = sum + a[i][j];
+            cout << "b [" << i << "][" << j << "] = ";
+            cin >> b[i][j];
         }
+        cout << endl;
     }
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            cout << b[i][j] << " ";
+        }
+        cout << endl;
+    }
+    
+    
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            cout << b[i][j] << " ";
+        }
+        cout << endl;
+    }
+    
+    
 
-    cout << "\nAverage of this Array : " << sum / (row * col);
-    
-    
-    
 }
