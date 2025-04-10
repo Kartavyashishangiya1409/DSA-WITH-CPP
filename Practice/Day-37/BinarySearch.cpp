@@ -86,7 +86,7 @@ int main()
         {
             key = true;
             position = mid;
-            break; // stop searching once found
+            break;
         }
         else
         {
